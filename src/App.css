@@ -55,3 +55,7 @@ button:hover {
   background-color: white;
   color: rgb(70, 153, 179);
 }
+
+.wrapper {
+    padding: 20px;
+}
