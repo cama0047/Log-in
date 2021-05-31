@@ -1,23 +1,27 @@
+body{
+  margin-top: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .App {
-  font-family: sans-serif;
+  padding: 2%;
+  font-family: 'Roboto',sans-serif;
+
+}
+.wrapper {
+   
+    width: 100%;
 }
 
-h1 {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
+.header{
+    background-color: rgb(70, 153, 179);
+    width: 100%;
+    height: 100%;
 }
 
-form {
-  max-width: 500px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-label,
-input {
-  display: block;
-  width: 100%;
-}
 
 label {
   margin-bottom: 5px;
@@ -56,6 +60,3 @@ button:hover {
   color: rgb(70, 153, 179);
 }
 
-.wrapper {
-    padding: 20px;
-}
